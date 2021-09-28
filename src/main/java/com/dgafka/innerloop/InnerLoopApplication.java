@@ -19,6 +19,6 @@ public class InnerLoopApplication {
 class Controller {
     @GetMapping("/")
     String[] index() {
-        return new String[]{"Cricket", "Basketball", "Football", "Badminton", "RabbitMQ", "RabbitMQ", "RabbitMQ"};
+        return new String[]{"Cricket", "Basketball", "Football", "Badminton", "RabbitMQ", "RabbitMQ"};
     }
 }
