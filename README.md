@@ -1,6 +1,10 @@
 # Full Inner Loop Developing Spring Boot Application on Kubernetes Cluster
 This is based on [great presentation](https://www.youtube.com/watch?v=akSskYvcmFo&ab_channel=SpringDeveloper) from [Dave Syer](https://twitter.com/david_syer) on [SpringOne conference](https://springone.io/)
 
+You will be able to run your Spring Application on local Kubernetes Cluster.   
+After making changes, it will automatically reload the application inside the container based on spring devtools.  
+You will be able to debug the application directly from your IDE.
+
 1. Install [ctlptl](https://github.com/tilt-dev/ctlptl) to set up Local Kubernetes Cluster with Docker Registry
 2. Create Cluster and Registry ctlptl 
 
