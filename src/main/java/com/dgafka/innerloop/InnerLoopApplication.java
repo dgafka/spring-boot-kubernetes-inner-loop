@@ -14,11 +14,3 @@ public class InnerLoopApplication {
         SpringApplication.run(InnerLoopApplication.class, args);
     }
 }
-
-@RestController
-class Controller {
-    @GetMapping("/")
-    String[] index() {
-        return new String[]{"Hello World!"};
-    }
-}
